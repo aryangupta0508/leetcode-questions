@@ -17,6 +17,10 @@ class Solution {
             }
 
         }
-         return minLength == Integer.MAX_VALUE ? 0 : minLength;
+       if (minLength == Integer.MAX_VALUE) {
+    return 0;
+} else {
+    return minLength;
+}
     }
 }
